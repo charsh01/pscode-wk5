@@ -1,0 +1,50 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+    declare input variables
+    prompt user for input_a;
+    prompt user for input_b;
+    input_a + input_b = answer;
+    display answer;
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+    declare int variable
+    prompt user for int;
+    divide int by 2;
+    if remainder = 0, display "even";   
+    else, display "odd";
+
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+
+    get integers and make array;
+
+    // average
+    int sum = 0;
+    for loop through array{
+        sum += array[i];
+        }
+    var average = sum / 5;
+
+    // find smallest and largest
+    int smallest = array[0];
+    int largest = array[0];
+    for loop through array{
+        if array[i] < smallest, smallest = array[i];
+        if array[i] > largest, largest = array[i];
+        }
+
+    //write out results
+    display "average = " average;
+    display "minimum = " smallest;
+    display "maximum = " largest;
+
+-- END --
